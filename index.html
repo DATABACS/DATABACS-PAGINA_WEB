@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DATABACS — Innovación en Datos y Tecnología</title>
+  <meta name="description" content="DATABACS - Servicios de análisis de datos, desarrollo web y soporte técnico.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a class="logo" href="#">
+        <img src="assets/logo.png" alt="DATABACS Logo" width="36" height="36">
+        <span style="color:white">DATABACS</span>
+      </a>
+
+      <button class="hamburger" aria-expanded="false" onclick="toggleMobile()">☰</button>
+
+      <nav id="mainNav">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+        <a class="cta" href="#contacto">Solicitar cotización</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="wrap">
+        <div>
+          <h1>Innovación en Datos, Tecnología y Soporte para tu negocio</h1>
+          <p class="lead">En DATABACS ayudamos a las empresas a transformar sus datos en decisiones estratégicas, diseñamos plataformas web y aplicaciones móviles con impacto real, y además ofrecemos soporte técnico, administración de servidores y consultoría tecnológica para impulsar el crecimiento digital de nuestros clientes.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#contacto">Solicitar una cotización</a>
+            <a class="btn btn-outline" href="#portafolio">Ver proyectos</a>
+          </div>
+          <div style="margin-top:18px" class="tags">
+            <span class="tag">Análisis de datos avanzado</span>
+            <span class="tag">Big Data y Machine Learning</span>
+            <span class="tag">Desarrollo de plataformas web/Apps</span>
+            <span class="tag">Soporte técnico y consultoría tecnológica</span>
+          </div>
+        </div>
+        <div class="hero-figure">
+          <div class="card-portrait" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop&crop=faces" alt="Equipo profesional" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <div class="wrap">
+        <h2>Sobre Nosotros</h2>
+        <p class="lead">DATABACS es una firma líder especializada en análisis de datos, desarrollo de plataformas digitales y soporte técnico empresarial. Combinamos experiencia técnica, innovación y un enfoque orientado a resultados para transformar información en decisiones estratégicas y potenciar el crecimiento de nuestros clientes.</p>
+        <div style="display:flex;gap:18px;margin-top:18px;flex-wrap:wrap">
+          <div style="flex:1;min-width:220px;background:white;padding:18px;border-radius:12px;box-shadow:0 8px 20px rgba(2,6,23,0.04)">
+            <h3 style="margin:0 0 8px">Misión</h3>
+            <p class="muted" style="margin:0">Impulsar el crecimiento y la eficiencia de las empresas mediante soluciones tecnológicas integrales, que incluyen análisis de datos, desarrollo de plataformas digitales, aplicaciones móviles y soporte técnico, transformando información en decisiones estratégicas y resultados concretos.</p>
+          </div>
+          <div style="flex:1;min-width:220px;background:white;padding:18px;border-radius:12px;box-shadow:0 8px 20px rgba(2,6,23,0.04)">
+            <h3 style="margin:0 0 8px">Visión</h3>
+            <p class="muted" style="margin:0">Ser la empresa líder en la región, reconocida por desarrollar proyectos de transformación digital innovadores, confiables y basados en datos, que potencien el éxito de nuestros clientes.</p>
+          </div>
+          <div style="flex:1;min-width:220px;background:white;padding:18px;border-radius:12px;box-shadow:0 8px 20px rgba(2,6,23,0.04)">
+            <h3 style="margin:0 0 8px">Valores</h3>
+            <p class="muted" style="margin:0">Compromiso, Innovación, Transparencia y Calidad técnica.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" style="background:transparent">
+      <div class="wrap">
+        <h2>Nuestros Servicios</h2>
+        <div class="grid services" style="grid-template-columns:repeat(2,1fr);margin-top:18px">
+          <div class="service-card">
+            <div class="icon">📊</div>
+            <div>
+              <h4 style="margin:0 0 6px">Análisis de Datos</h4>
+              <p class="muted" style="margin:0">Dashboards, ETL, modelado y visualización para decisiones basadas en datos.</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="icon">🌐</div>
+            <div>
+              <h4 style="margin:0 0 6px">Desarrollo Web Profesional</h4>
+              <p class="muted" style="margin:0">Landing pages, portales corporativos, tiendas en línea y plataformas a medida.</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="icon">📱</div>
+            <div>
+              <h4 style="margin:0 0 6px">Desarrollo de Aplicaciones Móviles</h4>
+              <p class="muted" style="margin:0">Apps híbridas o nativas con enfoque UX y rendimiento.</p>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="icon">🛠️</div>
+            <div>
+              <h4 style="margin:0 0 6px">Soporte Técnico Empresarial</h4>
+              <p class="muted" style="margin:0">Soporte remoto y en sitio, mantenimiento y administración de servidores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portafolio">
+      <div class="wrap">
+        <h2>Proyectos Destacados</h2>
+        <div class="portfolio-grid" style="margin-top:18px">
+          <div class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1581091870622-3c3b3f2c9d16?q=80&w=800&auto=format&fit=crop" alt="Catálogo digital" />
+            <h4>Proyecto de Control de Inventario</h4>
+            <p class="muted">Implementamos un sistema integral de inventarios para optimizar el registro, monitoreo y gestión de productos en tiempo real. Incluye alertas de stock mínimo, generación de reportes automáticos y análisis de movimientos, mejorando la eficiencia operativa y la toma de decisiones estratégicas.</p>
+          </div>
+          <div class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="Dashboard" />
+            <h4>Dashboard Empresarial</h4>
+            <p class="muted">Panel de control interactivo con KPIs en tiempo real.</p>
+          </div>
+          <div class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=800&auto=format&fit=crop" alt="Análisis" />
+            <h4>Proyecto de Análisis de Datos Avanzados</h4>
+            <p class="muted">Desarrollamos soluciones de análisis de datos avanzados para transformar información en decisiones estratégicas. Incluye modelado predictivo, visualización de KPIs y automatización de reportes, permitiendo a las empresas anticipar tendencias y optimizar sus procesos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" style="background:#f8fafc">
+      <div class="wrap">
+        <h2>Últimas entradas</h2>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px">
+          <article style="background:white;padding:14px;border-radius:10px">
+            <h4 style="margin:0 0 8px">¿Por qué invertir en dashboards?</h4>
+            <p class="muted" style="margin:0">Cómo un dashboard puede transformar la toma de decisiones en tu empresa.</p>
+          </article>
+          <article style="background:white;padding:14px;border-radius:10px">
+            <h4 style="margin:0 0 8px">Tendencias en desarrollo web 2025</h4>
+            <p class="muted" style="margin:0">Principales tecnologías y buenas prácticas para crear aplicaciones escalables.</p>
+          </article>
+          <article style="background:white;padding:14px;border-radius:10px">
+            <h4 style="margin:0 0 8px">Estrategias de ETL eficientes</h4>
+            <p class="muted" style="margin:0">Procesos y herramientas para integrar datos sin dolor.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="wrap">
+        <h2>Contacto</h2>
+        <div class="contact-grid" style="margin-top:18px">
+          <div class="contact-card">
+            <h3>Envía un mensaje</h3>
+            <form onsubmit="handleSubmit(event)">
+              <div class="row">
+                <input type="text" id="name" placeholder="Tu nombre" required />
+                <input type="email" id="email" placeholder="Correo" required />
+              </div>
+              <input type="text" id="company" placeholder="Empresa (opcional)" />
+              <textarea id="message" rows="5" placeholder="Mensaje" required></textarea>
+              <button type="submit">Enviar mensaje</button>
+            </form>
+          </div>
+          <aside style="display:flex;flex-direction:column;gap:12px">
+            <div class="contact-card">
+              <h4>Datos</h4>
+              <p class="muted" style="margin:6px 0 0">Tel: +52 123 456 7890</p>
+              <p class="muted" style="margin:6px 0 0">Email: contacto@databacs.com</p>
+              <p class="muted" style="margin:6px 0 0">Ubicación: Huatabampo, Sonora, México</p>
+            </div>
+            <div class="contact-card">
+              <h4>Horario</h4>
+              <p class="muted" style="margin:6px 0 0">Lun - Vie: 9:00 - 18:00</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap footer-wrap">
+      <div>
+        <strong>DATABACS</strong>
+        <p class="muted" style="max-width:36ch">Soluciones en análisis de datos, desarrollo y soporte técnico.</p>
+      </div>
+      <div style="display:flex;gap:24px">
+        <div>
+          <h4 style="margin:0 0 8px">Enlaces</h4>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <a href="#servicios">Servicios</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+          </div>
+        </div>
+        <div>
+          <h4 style="margin:0 0 8px">Síguenos</h4>
+          <div style="display:flex;gap:10px">
+            <a href="#">LinkedIn</a>
+            <a href="#">Facebook</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/5211234567890?text=Hola%20DATABACS,%20quiero%20más%20información" target="_blank" aria-label="WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.5 3.5c-1.8-1.2-4.2-1.5-6.3-.9-5.2 1.5-8.6 6.9-7 12 0.4 1.5 1.5 3 2.7 4.1L4 21l1.4-2.6c1.1.6 2.4.9 3.7.9 5.2 0 9.4-4.2 9.4-9.4 0-1.6-0.4-3.2-1.1-4.5z" fill="white"/></svg>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
